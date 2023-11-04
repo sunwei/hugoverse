@@ -1,6 +1,6 @@
 module github.com/sunwei/hugoverse
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/BurntSushi/locker v0.0.0-20171006230638-a6e239ea1c69

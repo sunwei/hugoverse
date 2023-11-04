@@ -1,0 +1,927 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_d1MKHl {
+	
+		
+    	d1MKHl [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">hugoverse</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse"
+
+	
+		subgraph cluster_dbxZrIo {
+	
+		
+    	dbxZrIo [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="detyMWZ" bgcolor="#ead1dcff" rowspan="1" colspan="4">main</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/function"
+
+	
+    }
+		subgraph cluster_deqnr0l {
+	
+		
+    	deqnr0l [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">internal</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal"
+
+	
+		subgraph cluster_ddCj6e4 {
+	
+		
+    	ddCj6e4 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">interfaces</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces"
+
+	
+		subgraph cluster_ddYjOIV {
+	
+		
+    	ddYjOIV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dgIYDP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Run</td>
+			<td port="dcHonEr" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Usage</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dlBtcL" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">serverCmd</td>
+			<td port="ddvDKjy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">parent</td>
+			<td port="deyfafW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cmd</td>
+			<td port="dHlH0R" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">hugoProjPath</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="9">cmd</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/cmd"
+
+	
+    }
+		subgraph cluster_deipcFn {
+	
+		
+    	deipcFn [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcYuHjL" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ServeHTTP</td>
+			<td port="dcDPpwR" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">registerHandler</td>
+			<td port="ddX21DI" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">handleConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dgg4D1" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">Server</td>
+			<td port="dcOLb3G" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mux</td>
+			<td port="dbaCTeQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cache</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db8Ew46" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">writeJSONResponse</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddCRQLy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Log</td>
+			<td port="de9Gc8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ProjPath</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">api</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/api"
+
+	
+		subgraph cluster_dbpMaBE {
+	
+		
+    	dbpMaBE [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dddPUI9" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewServer</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/api/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dHxzDk {
+	
+		
+    	dHxzDk [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">domain</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain"
+
+	
+		subgraph cluster_deOjktH {
+	
+		
+    	deOjktH [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">config</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config"
+
+	
+		subgraph cluster_db9gx4R {
+	
+		
+    	db9gx4R [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deDYuWE" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">All</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLb78A" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Config</td>
+			<td port="d66qme" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Path</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config/entity"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dcFiKIs {
+	
+		
+    	dcFiKIs [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">application</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/application"
+
+	
+		subgraph cluster_dxOXAd {
+	
+		
+    	dxOXAd [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="degqbz4" bgcolor="#ead1dcff" rowspan="1" colspan="4">AllConfigurationInformation</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/application/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dd8NtQk {
+	
+		
+    	dd8NtQk [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">cmd</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/cmd"
+
+	
+		subgraph cluster_dcmDpqB {
+	
+		
+    	dcmDpqB [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddi2esZ" bgcolor="#ead1dcff" rowspan="1" colspan="4">New</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/cmd/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbxZrIo {
+	
+		
+    	dbxZrIo [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="detyMWZ" bgcolor="#ead1dcff" rowspan="1" colspan="4">main</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/function"
+
+	
+    }
+		subgraph cluster_deqnr0l {
+	
+		
+    	deqnr0l [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">internal</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal"
+
+	
+		subgraph cluster_ddCj6e4 {
+	
+		
+    	ddCj6e4 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">interfaces</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces"
+
+	
+		subgraph cluster_ddYjOIV {
+	
+		
+    	ddYjOIV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dgIYDP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Run</td>
+			<td port="dcHonEr" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Usage</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dlBtcL" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">serverCmd</td>
+			<td port="ddvDKjy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">parent</td>
+			<td port="deyfafW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cmd</td>
+			<td port="dHlH0R" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">hugoProjPath</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="9">cmd</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/cmd"
+
+	
+    }
+		subgraph cluster_deipcFn {
+	
+		
+    	deipcFn [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcYuHjL" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ServeHTTP</td>
+			<td port="dcDPpwR" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">registerHandler</td>
+			<td port="ddX21DI" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">handleConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dgg4D1" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">Server</td>
+			<td port="dcOLb3G" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mux</td>
+			<td port="dbaCTeQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cache</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db8Ew46" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">writeJSONResponse</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddCRQLy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Log</td>
+			<td port="de9Gc8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ProjPath</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">api</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/api"
+
+	
+		subgraph cluster_dbpMaBE {
+	
+		
+    	dbpMaBE [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dddPUI9" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewServer</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/interfaces/api/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dHxzDk {
+	
+		
+    	dHxzDk [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">domain</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain"
+
+	
+		subgraph cluster_deOjktH {
+	
+		
+    	deOjktH [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">config</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config"
+
+	
+		subgraph cluster_db9gx4R {
+	
+		
+    	db9gx4R [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deDYuWE" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">All</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLb78A" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Config</td>
+			<td port="d66qme" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Path</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config/entity"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dcFiKIs {
+	
+		
+    	dcFiKIs [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">application</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/application"
+
+	
+		subgraph cluster_dxOXAd {
+	
+		
+    	dxOXAd [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="degqbz4" bgcolor="#ead1dcff" rowspan="1" colspan="4">AllConfigurationInformation</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/application/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dd8NtQk {
+	
+		
+    	dd8NtQk [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">cmd</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/cmd"
+
+	
+		subgraph cluster_dcmDpqB {
+	
+		
+    	dcmDpqB [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddi2esZ" bgcolor="#ead1dcff" rowspan="1" colspan="4">New</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/sunwei/hugoverse/cmd/function"
+
+	
+    }
+    }
+
+	
+		d1MKHl -> deqnr0l  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> internal: \n\n"]
+		deipcFn:ddX21DI -> dxOXAd:degqbz4  [style=solid arrowhead=normal label="1" tooltip="Server.handleConfig -> AllConfigurationInformation: \n\nFrom: config.go (Line: 11, Column: 60) To: config.go (Line: 9, Column: 6)\n"]
+		ddYjOIV:dgIYDP -> dbpMaBE:dddPUI9  [style=solid arrowhead=normal label="1" tooltip="serverCmd.Run -> NewServer: \n\nFrom: server.go (Line: 56, Column: 25) To: server.go (Line: 19, Column: 6)\n"]
+		dbxZrIo:detyMWZ -> dcmDpqB:ddi2esZ  [style=solid arrowhead=normal label="1" tooltip="main -> New: \n\nFrom: main.go (Line: 10, Column: 16) To: command.go (Line: 11, Column: 6)\n"]
+		dHxzDk -> deOjktH  [style=dotted arrowhead=diamond label="1" tooltip="domain -> config: \n\n"]
+		dd8NtQk -> dcmDpqB  [style=dotted arrowhead=normal label="1" tooltip="cmd -> function: \n\n"]
+		deOjktH -> db9gx4R  [style=dotted arrowhead=diamond label="1" tooltip="config -> entity: \n\n"]
+		dcFiKIs -> dxOXAd  [style=dotted arrowhead=normal label="1" tooltip="application -> function: \n\n"]
+		dxOXAd:degqbz4 -> db9gx4R:deDYuWE  [style=solid arrowhead=normal label="1" tooltip="AllConfigurationInformation -> Config.All: \n\nFrom: config.go (Line: 12, Column: 14) To: config.go (Line: 12, Column: 18)\n"]
+		ddCj6e4 -> ddYjOIV  [style=dotted arrowhead=diamond label="1" tooltip="interfaces -> cmd: \n\n"]
+		deipcFn -> dbpMaBE  [style=dotted arrowhead=normal label="1" tooltip="api -> function: \n\n"]
+		ddCj6e4 -> deipcFn  [style=dotted arrowhead=diamond label="1" tooltip="interfaces -> api: \n\n"]
+		deqnr0l -> ddCj6e4  [style=dotted arrowhead=diamond label="1" tooltip="internal -> interfaces: \n\n"]
+		deqnr0l -> dcFiKIs  [style=dotted arrowhead=diamond label="1" tooltip="internal -> application: \n\n"]
+		d1MKHl -> dd8NtQk  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> cmd: \n\n"]
+		deipcFn:dcDPpwR -> deipcFn:ddX21DI  [style=solid arrowhead=normal label="1" tooltip="Server.registerHandler -> Server.handleConfig: \n\nFrom: server.go (Line: 34, Column: 18) To: config.go (Line: 8, Column: 18)\n"]
+		dbpMaBE:dddPUI9 -> deipcFn:dcDPpwR  [style=solid arrowhead=normal label="1" tooltip="NewServer -> Server.registerHandler: \n\nFrom: server.go (Line: 29, Column: 19) To: server.go (Line: 33, Column: 18)\n"]
+		dcmDpqB:ddi2esZ -> ddYjOIV:dgIYDP  [style=solid arrowhead=normal label="1" tooltip="New -> serverCmd.Run: \n\nFrom: command.go (Line: 51, Column: 25) To: server.go (Line: 40, Column: 22)\n"]
+		d1MKHl -> dbxZrIo  [style=dotted arrowhead=normal label="1" tooltip="hugoverse -> function: \n\n"]
+		deqnr0l -> dHxzDk  [style=dotted arrowhead=diamond label="1" tooltip="internal -> domain: \n\n"]
+
+	label = "\n\ngithub.com/sunwei/hugoverse\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}

@@ -26,11 +26,11 @@ func NewServer(options ...func(s *Server) error) (*Server, error) {
 	if s.Log == nil {
 		return nil, fmt.Errorf("must provide an option func that specifies a logger")
 	}
-	s.init()
+	s.registerHandler()
 	return s, nil
 }
 
-func (s *Server) init() {
+func (s *Server) registerHandler() {
 	s.mux.HandleFunc("/config", s.handleConfig)
 }
 
