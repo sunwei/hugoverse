@@ -322,6 +322,8 @@ github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8
 github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
 github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
+github.com/hairyhenderson/go-codeowners v0.4.0 h1:Wx/tRXb07sCyHeC8mXfio710Iu35uAy5KYiBdLHdv4Q=
+github.com/hairyhenderson/go-codeowners v0.4.0/go.mod h1:iJgZeCt+W/GzXo5uchFCqvVHZY2T4TAIpvuVlKVkLxc=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru/v2 v2.0.1 h1:5pv5N1lT1fjLg2VQ5KWc7kmucp2x/kvFOnxuVTqZ6x4=
@@ -439,6 +441,8 @@ github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
+github.com/sunwei/zero v0.0.0-20221005003323-b204559ecb5e h1:UWNiBIBs3rWzHqnng+OkoYt9eP3CeQ9ewT7dUPE59a4=
+github.com/sunwei/zero v0.0.0-20221005003323-b204559ecb5e/go.mod h1:5TazpFhRNQyPcVTkyopsmyMvPp+jHflZzmHcOypQ9yk=
 github.com/tdewolff/minify/v2 v2.20.5 h1:IbJpmpAFESnuJPdsvFBJWsDcXE5qHsmaVQrRqhOI9sI=
 github.com/tdewolff/minify/v2 v2.20.5/go.mod h1:N78HtaitkDYAWXFbqhWX/LzgwylwudK0JvybGDVQ+Mw=
 github.com/tdewolff/parse/v2 v2.7.3 h1:SHj/ry85FdqniccvzJTG+Gt/mi/HNa1cJcTzYZnvc5U=

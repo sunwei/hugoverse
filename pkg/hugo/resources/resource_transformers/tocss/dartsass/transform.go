@@ -35,6 +35,7 @@ import (
 	"github.com/sunwei/hugoverse/pkg/hugo/hugofs"
 
 	godartsassv1 "github.com/bep/godartsass"
+	"github.com/bep/godartsass/v2"
 )
 
 // Supports returns whether dart-sass-embedded is found in $PATH.

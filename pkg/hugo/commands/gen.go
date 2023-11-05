@@ -35,6 +35,7 @@ import (
 	"github.com/sunwei/hugoverse/pkg/hugo/hugofs"
 	"github.com/sunwei/hugoverse/pkg/hugo/hugolib"
 	"github.com/sunwei/hugoverse/pkg/hugo/parser"
+	"gopkg.in/yaml.v2"
 )
 
 func newGenCommand() *genCommand {

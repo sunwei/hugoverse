@@ -21,6 +21,7 @@ import (
 	"strings"
 
 	godartsassv1 "github.com/bep/godartsass"
+	"github.com/bep/godartsass/v2"
 	"github.com/bep/logg"
 	"github.com/spf13/afero"
 	"github.com/sunwei/hugoverse/pkg/hugo/common/herrors"

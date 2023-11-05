@@ -1,0 +1,72 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_d1MKHl {
+	
+		
+		d1MKHl [label="hugoverse" style=filled fillcolor="#ffffffff"]
+	
+
+	label = "github.com/sunwei/hugoverse"
+
+	
+		subgraph cluster_deOjktH {
+	
+		
+		dco61II [label="Config" style=filled fillcolor="#ffd966ff"]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config"
+
+	
+    }
+    }
+		subgraph cluster_deOjktH {
+	
+		
+		dco61II [label="Config" style=filled fillcolor="#ffd966ff"]
+	
+
+	label = "github.com/sunwei/hugoverse/internal/domain/config"
+
+	
+    }
+
+	
+		d1MKHl -> dco61II  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Config: \n\n"]
+
+	label = "\n\ngithub.com/sunwei/hugoverse\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}

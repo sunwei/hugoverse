@@ -17,6 +17,7 @@ import (
 	"io"
 	"path"
 
+	"github.com/hairyhenderson/go-codeowners"
 	"github.com/spf13/afero"
 	"github.com/sunwei/hugoverse/pkg/hugo/common/herrors"
 	"github.com/sunwei/hugoverse/pkg/hugo/resources/page"
